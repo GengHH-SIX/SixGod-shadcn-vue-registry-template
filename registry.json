@@ -8,19 +8,19 @@
 			"type": "registry:ui",
 			"files": [
 				{
-					"path": "ui/collapsible/index.ts",
+					"path": "registry/ui/collapsible/index.ts",
 					"type": "registry:ui"
 				},
 				{
-					"path": "ui/collapsible/CollapsibleTrigger.vue",
+					"path": "registry/ui/collapsible/CollapsibleTrigger.vue",
 					"type": "registry:ui"
 				},
 				{
-					"path": "ui/collapsible/CollapsibleContent.vue",
+					"path": "registry/ui/collapsible/CollapsibleContent.vue",
 					"type": "registry:ui"
 				},
 				{
-					"path": "ui/collapsible/Collapsible.vue",
+					"path": "registry/ui/collapsible/Collapsible.vue",
 					"type": "registry:ui"
 				}
 			],
@@ -31,35 +31,35 @@
 			"type": "registry:ui",
 			"files": [
 				{
-					"path": "/src/components/ui/card/index.ts",
+					"path": "src/registry/ui/card/index.ts",
 					"type": "registry:ui"
 				},
 				{
-					"path": "/src/components/ui/card/CardTitle.vue",
+					"path": "src/registry/ui/card/CardTitle.vue",
 					"type": "registry:ui"
 				},
 				{
-					"path": "/src/components/ui/card/CardHeader.vue",
+					"path": "src/registry/ui/card/CardHeader.vue",
 					"type": "registry:ui"
 				},
 				{
-					"path": "/src/components/ui/card/CardFooter.vue",
+					"path": "src/registry/ui/card/CardFooter.vue",
 					"type": "registry:ui"
 				},
 				{
-					"path": "/src/components/ui/card/CardDescription.vue",
+					"path": "src/registry/ui/card/CardDescription.vue",
 					"type": "registry:ui"
 				},
 				{
-					"path": "/src/components/ui/card/CardContent.vue",
+					"path": "src/registry/ui/card/CardContent.vue",
 					"type": "registry:ui"
 				},
 				{
-					"path": "/src/components/ui/card/CardAction.vue",
+					"path": "src/registry/ui/card/CardAction.vue",
 					"type": "registry:ui"
 				},
 				{
-					"path": "/src/components/ui/card/Card.vue",
+					"path": "src/registry/ui/card/Card.vue",
 					"type": "registry:ui"
 				}
 			]

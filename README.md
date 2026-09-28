@@ -16,10 +16,18 @@ Learn more about the recommended Project Setup and IDE Support in the [Vue Docs 
 
 2. 使用`pnpm shadcn:build` 指令 构建自己的属于shadcn-vue生态中的组件，block，hooks 等！
 
-### 使用基本要求
+### 基本要求
 
 1. shadcn-vue 生态默认使用CSS 框架的是`tailwindcss`，所以需要安装`tailwindcss`，并配置`tailwindcss`。
 2. shadcn-vue 生态默认使用组件库的是 `rake-ui`，所以需要安装`rake-ui`。
+
+### 安装使用内置组件
+
+```shell
+pnpm dlx shadcn-vue@latest add GengHH-SIX/SixGod-shadcn-vue-registry-template/card
+```
+
+- 可以使用类似的此命令来进行下载使用
 
 ### Shadcn-vue 生态
 
@@ -27,7 +35,7 @@ Learn more about the recommended Project Setup and IDE Support in the [Vue Docs 
 
 ---
 
-## 🚀 安装与使用
+## 🚀 第三方安装与使用
 
 通过这个模版项目构建自己的组件库，该组件库能全面兼容 `shadcn-vue` 生态。使用者可以通过以下任意一种方式将组件一键安装到你的项目中：
 
@@ -36,7 +44,7 @@ Learn more about the recommended Project Setup and IDE Support in the [Vue Docs 
 在他的项目根目录下直接运行：
 
 ```bash
-npx shadcn-vue@latest add https://githubusercontent.com
+pnpm dlx shadcn-vue@latest add https://githubusercontent.com
 ```
 
 ### 方案 B：配置短命名空间（推荐频繁使用者）
@@ -49,5 +57,5 @@ npx shadcn-vue@latest add https://githubusercontent.com
    ```
 2. 运行短命令安装：
    ```bash
-   npx shadcn-vue@latest add @Temp/组件名
+   pnpm dlx shadcn-vue@latest add @Temp/组件名
    ```

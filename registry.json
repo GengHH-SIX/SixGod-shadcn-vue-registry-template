@@ -8,19 +8,19 @@
 			"type": "registry:ui",
 			"files": [
 				{
-					"path": "registry/ui/collapsible/index.ts",
+					"path": "src/registry/ui/collapsible/index.ts",
 					"type": "registry:ui"
 				},
 				{
-					"path": "registry/ui/collapsible/CollapsibleTrigger.vue",
+					"path": "src/registry/ui/collapsible/CollapsibleTrigger.vue",
 					"type": "registry:ui"
 				},
 				{
-					"path": "registry/ui/collapsible/CollapsibleContent.vue",
+					"path": "src/registry/ui/collapsible/CollapsibleContent.vue",
 					"type": "registry:ui"
 				},
 				{
-					"path": "registry/ui/collapsible/Collapsible.vue",
+					"path": "src/registry/ui/collapsible/Collapsible.vue",
 					"type": "registry:ui"
 				}
 			],
@@ -69,11 +69,11 @@
 			"type": "registry:example",
 			"files": [
 				{
-					"path": "example/use-card/index.ts",
+					"path": "src/registry/example/use-card/index.ts",
 					"type": "registry:example"
 				},
 				{
-					"path": "example/use-card/UseCard.vue",
+					"path": "src/registry/example/use-card/UseCard.vue",
 					"type": "registry:example"
 				}
 			],
@@ -84,15 +84,15 @@
 			"type": "registry:block",
 			"files": [
 				{
-					"path": "blocks/hello-world/index.ts",
+					"path": "src/registry/blocks/hello-world/index.ts",
 					"type": "registry:block"
 				},
 				{
-					"path": "blocks/hello-world/HelloWorld.vue",
+					"path": "src/registry/blocks/hello-world/HelloWorld.vue",
 					"type": "registry:block"
 				},
 				{
-					"path": "blocks/hello-world/components/OpenV0Link.vue",
+					"path": "src/registry/blocks/hello-world/components/OpenV0Link.vue",
 					"type": "registry:component"
 				}
 			]

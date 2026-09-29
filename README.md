@@ -17,11 +17,11 @@
 2. 使用`pnpm shadcn:build` 指令 构建自己的属于shadcn-vue生态中的组件，block，hooks 等！
 
 3. `build` 时候，你可以指定不同的资源部署方式
-   - 方式一（**默认**）：“Vercel（通过部署到静态网站，然后下载和使用）”，生成`registry.json`文件；
-   - 方式二：“Github Pages（通过部署到静态网站，然后下载和使用）”，生成`registry.json`文件；
-     - 提价代码到Github时候，请手动将`registry.json`文件放入到项目根目录下；
-   - 方式三：“同时生成这两种”，生成`registry.json`和`registry-github.json`文件；
-     - 提价代码到Github时候，请手动修改`registry-github.json`文件名为`registry.json`，并放入到项目根目录下，再提交代码到github；
+    - 方式一（**默认**）：“Vercel（通过部署到静态网站，然后下载和使用）”，生成`registry.json`文件；
+    - 方式二：“Github Pages（通过部署到静态网站，然后下载和使用）”，生成`registry.json`文件；
+        - 提价代码到Github时候，请手动将`registry.json`文件放入到项目根目录下；
+    - 方式三：“同时生成这两种”，生成`registry.json`和`registry-github.json`文件；
+        - 提价代码到Github时候，请手动修改`registry-github.json`文件名为`registry.json`，并放入到项目根目录下，再提交代码到github；
 
 ### 基本要求
 
@@ -71,14 +71,14 @@ pnpm dlx shadcn-vue@latest add https://yourwebsit.com/**/{name}.json
 
 1. 在你项目的 `components.json` 中配置自定义源：
 
-   ```json
-   "registries": {
-     "@Temp": "https://yourwebsit.com/**/{name}.json"
-   }
-   ```
+    ```json
+    "registries": {
+      "@Temp": "https://yourwebsit.com/**/{name}.json"
+    }
+    ```
 
 2. 运行短命令安装：
 
-   ```bash
-   pnpm dlx shadcn-vue@latest add @Temp/组件名
-   ```
+    ```bash
+    pnpm dlx shadcn-vue@latest add @Temp/组件名
+    ```

@@ -1,101 +1,101 @@
 {
-	"$schema": "https://shadcn-vue.com/schema/registry.json",
-	"name": "shadcn-vue-test",
-	"homepage": "https://github.com/lonewolfyx/",
-	"items": [
-		{
-			"name": "collapsible",
-			"type": "registry:ui",
-			"files": [
-				{
-					"path": "src/registry/ui/collapsible/index.ts",
-					"type": "registry:ui"
-				},
-				{
-					"path": "src/registry/ui/collapsible/CollapsibleTrigger.vue",
-					"type": "registry:ui"
-				},
-				{
-					"path": "src/registry/ui/collapsible/CollapsibleContent.vue",
-					"type": "registry:ui"
-				},
-				{
-					"path": "src/registry/ui/collapsible/Collapsible.vue",
-					"type": "registry:ui"
-				}
-			],
-			"dependencies": ["reka-ui"]
-		},
-		{
-			"name": "card",
-			"type": "registry:ui",
-			"files": [
-				{
-					"path": "src/registry/ui/card/index.ts",
-					"type": "registry:ui"
-				},
-				{
-					"path": "src/registry/ui/card/CardTitle.vue",
-					"type": "registry:ui"
-				},
-				{
-					"path": "src/registry/ui/card/CardHeader.vue",
-					"type": "registry:ui"
-				},
-				{
-					"path": "src/registry/ui/card/CardFooter.vue",
-					"type": "registry:ui"
-				},
-				{
-					"path": "src/registry/ui/card/CardDescription.vue",
-					"type": "registry:ui"
-				},
-				{
-					"path": "src/registry/ui/card/CardContent.vue",
-					"type": "registry:ui"
-				},
-				{
-					"path": "src/registry/ui/card/CardAction.vue",
-					"type": "registry:ui"
-				},
-				{
-					"path": "src/registry/ui/card/Card.vue",
-					"type": "registry:ui"
-				}
-			]
-		},
-		{
-			"name": "use-card",
-			"type": "registry:example",
-			"files": [
-				{
-					"path": "src/registry/example/use-card/index.ts",
-					"type": "registry:example"
-				},
-				{
-					"path": "src/registry/example/use-card/UseCard.vue",
-					"type": "registry:example"
-				}
-			],
-			"registryDependencies": ["button", "label", "~/registry/ui/card/index.ts"]
-		},
-		{
-			"name": "hello-world",
-			"type": "registry:block",
-			"files": [
-				{
-					"path": "src/registry/blocks/hello-world/index.ts",
-					"type": "registry:block"
-				},
-				{
-					"path": "src/registry/blocks/hello-world/HelloWorld.vue",
-					"type": "registry:block"
-				},
-				{
-					"path": "src/registry/blocks/hello-world/components/OpenV0Link.vue",
-					"type": "registry:component"
-				}
-			]
-		}
-	]
+    "$schema": "https://shadcn-vue.com/schema/registry.json",
+    "name": "shadcn-vue-test",
+    "homepage": "https://github.com/lonewolfyx/",
+    "items": [
+        {
+            "name": "collapsible",
+            "type": "registry:ui",
+            "files": [
+                {
+                    "path": "src/registry/ui/collapsible/index.ts",
+                    "type": "registry:ui"
+                },
+                {
+                    "path": "src/registry/ui/collapsible/CollapsibleTrigger.vue",
+                    "type": "registry:ui"
+                },
+                {
+                    "path": "src/registry/ui/collapsible/CollapsibleContent.vue",
+                    "type": "registry:ui"
+                },
+                {
+                    "path": "src/registry/ui/collapsible/Collapsible.vue",
+                    "type": "registry:ui"
+                }
+            ],
+            "dependencies": ["reka-ui"]
+        },
+        {
+            "name": "card",
+            "type": "registry:ui",
+            "files": [
+                {
+                    "path": "src/registry/ui/card/index.ts",
+                    "type": "registry:ui"
+                },
+                {
+                    "path": "src/registry/ui/card/CardTitle.vue",
+                    "type": "registry:ui"
+                },
+                {
+                    "path": "src/registry/ui/card/CardHeader.vue",
+                    "type": "registry:ui"
+                },
+                {
+                    "path": "src/registry/ui/card/CardFooter.vue",
+                    "type": "registry:ui"
+                },
+                {
+                    "path": "src/registry/ui/card/CardDescription.vue",
+                    "type": "registry:ui"
+                },
+                {
+                    "path": "src/registry/ui/card/CardContent.vue",
+                    "type": "registry:ui"
+                },
+                {
+                    "path": "src/registry/ui/card/CardAction.vue",
+                    "type": "registry:ui"
+                },
+                {
+                    "path": "src/registry/ui/card/Card.vue",
+                    "type": "registry:ui"
+                }
+            ]
+        },
+        {
+            "name": "use-card",
+            "type": "registry:example",
+            "files": [
+                {
+                    "path": "src/registry/example/use-card/index.ts",
+                    "type": "registry:example"
+                },
+                {
+                    "path": "src/registry/example/use-card/UseCard.vue",
+                    "type": "registry:example"
+                }
+            ],
+            "registryDependencies": ["button", "label", "~/registry/ui/card/index.ts"]
+        },
+        {
+            "name": "hello-world",
+            "type": "registry:block",
+            "files": [
+                {
+                    "path": "src/registry/blocks/hello-world/index.ts",
+                    "type": "registry:block"
+                },
+                {
+                    "path": "src/registry/blocks/hello-world/HelloWorld.vue",
+                    "type": "registry:block"
+                },
+                {
+                    "path": "src/registry/blocks/hello-world/components/OpenV0Link.vue",
+                    "type": "registry:component"
+                }
+            ]
+        }
+    ]
 }
